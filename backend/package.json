@@ -1,0 +1,29 @@
+{
+  "name": "my-doctor-api",
+  "version": "1.0.0",
+  "main": "dist",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -w src --exec \"babel-node src\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^4.44.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "nodemon": "^1.19.4"
+  }
+}

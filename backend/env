@@ -1,0 +1,5 @@
+PORT=5000
+DB=mydoctor
+DB_USER=postgres
+DB_PASS=115599prog@ali
+JWT_SECRET=mydoctor
